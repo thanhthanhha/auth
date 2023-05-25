@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6346d573c967c4fa049782a5"
+  },
+  "id": "10000",
+  "name": "The Man in the Diary",
+  "chapters": [
+    {
+      "num": "1",
+      "content": {
+        "$oid": "6367d3d3c0e982553720c477"
+      }
+    },
+    {
+      "num": "2",
+      "content": {
+        "$oid": "636bbd8b7889145d0d5a2599"
+      }
+    }
+  ],
+  "summary": "<blockquote class=\"userstuff\">\n              <p>Harry pulls the diary from Ginny's cauldron after having seen Malfoy slip it inside. What begins as a friendship with a kind man trapped inside a book turns into a story of obsession as Tom Riddle seeks to protect his horcrux and Lord Voldemort returns to find his throne threatened by none other than himself.</p>\n            </blockquote>",
+  "user": {
+    "$oid": "6325ff65d110524aa9a340cd"
+  }
+},{
+  "_id": {
+    "$oid": "63481fbeaafba87c2572ae8e"
+  },
+  "id": "10001",
+  "name": "No Glory",
+  "chapters": [
+    {
+      "num": "1",
+      "content": {
+        "$oid": "6367d3bdc0e982553720c472"
+      }
+    }
+  ],
+  "summary": "<blockquote class=\"userstuff\">\n              <p>The Dark Lord divines what Harry Potter is in the Forbidden Forest, and revelations lead to incomprehensible consequences. Lord Voldemort has won... and the dystopia is damning. </p><p>A tale of a fallen hero, dark desires, and a Dark Lord's obsession with something he has lost and finds himself unwillingly lusting after: a soul.</p>\n            </blockquote>",
+  "user": {
+    "$oid": "6321d6e38081a857777539e2"
+  }
+},{
+  "_id": {
+    "$oid": "636a69f736350c4043871846"
+  },
+  "id": "10002",
+  "name": "Butterfly Wings",
+  "chapters": [
+    {
+      "num": "1",
+      "content": {
+        "$oid": "636a6a3736350c4043871849"
+      }
+    }
+  ],
+  "summary": "<blockquote class=\"userstuff\">\n              <p>Lily Potter made a mistake nine months before Harry was born: Severus Snape, not her husband, was Harry's father. The ripple effect of this reaches far: Snape dies young, Harry calls vampires family, and Lucius Malfoy seeks to destroy Voldemort. But one thing remains the same – the inevitability of death.</p>\n            </blockquote>",
+  "user": {
+    "$oid": "6321d6e38081a857777539e3"
+  }
+}]

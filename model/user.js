@@ -37,7 +37,7 @@ const chapterSchema = new mongoose.Schema({
     content: {type: String}
 });
 
-const Story = mongoose.model("stories", storySchema);
+const Story = mongoose.model("story", storySchema);
 const User = mongoose.model("user", userSchema);
 const Chapter = mongoose.model("chapter", chapterSchema);
 

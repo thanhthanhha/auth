@@ -1,10 +1,12 @@
 const { default: mongoose } = require("mongoose")
 
-const {MONGO_URI} = process.env;
+const {MONGOOSE_URI} = process.env;
 
 exports.connect = async () => {
     mongoose
-        .connect(MONGO_URI, {
+        .connect(MONGOOSE_URI, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
         })
         .then(async () => {
             console.log("Connected to DB")
@@ -12,7 +14,7 @@ exports.connect = async () => {
             await mongoose.connection.db.collection('chapters').createIndex({ content: 'text', title: 'text' });
         })
         .catch((error) => {
-            console.log(`database connection fail, please check service and config file ${MONGO_URI}`);
+            console.log(`database connection fail, please check service and config file ${MONGOOSE_URI}`);
             console.error(error);
             process.exit(1);
         })
