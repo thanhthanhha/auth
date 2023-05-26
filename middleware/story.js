@@ -6,7 +6,10 @@ const Chapter = require("../model/user").Chapter;
 let redisClient;
 if (process.env.REDIS_URL) {
     (async () => {
-        redisClient = redis.createClient();
+        redisClient = redis.createClient({
+          host: REDIS_URL,
+          port: REDIS_PORT || 6379,
+        });
         redisClient.on("error", (error) => console.log(`Error: ${error}`));
         await redisClient.connect();
     })();    
